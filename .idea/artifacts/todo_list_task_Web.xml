@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="todo-list-task:Web">
+    <output-path>$PROJECT_DIR$/out/artifacts/todo_list_task_Web</output-path>
+    <root id="archive" name="todo-list-task_Web.war">
+      <element id="artifact" artifact-name="todo-list-task:Web exploded" />
+    </root>
+  </artifact>
+</component>

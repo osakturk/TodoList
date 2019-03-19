@@ -1,0 +1,31 @@
+﻿
+
+&tcrmhead=CRM’e Telefon Yaklaşımı
+
+&tcrm=Müşteri çağında, müşteriniz ile en yoğun iletişim kurduğunuz kanalda yeterince güçlü müsünüz? T-CRM müşterileriniz ile telefonda kurduğunuz ilişkiye tüm yönleriyle hakim olabilmenizi sağlıyor.
+
+&tcrmkucuk=.
+
+
+
+&tpanelhead=Çalışanlara Özel Asistan Dönemi
+
+&tpanel=Size özel yetenekli bir asistan ister misiniz? T-PANEL, telefonlarınızı bağlıyor, aradıklarınızın ve sizi arayanların kaydını tutuyor, kişisel ve şirketinizin ortak telefon rehberlerini düzenliyor.
+
+&tpanelkucuk=.
+
+
+
+&abakus360head=Analiz ve Ücretlendirmede Son Nokta
+
+&abakus360=ABAKUS 360 çağrı analiz yazılımı ile telefon görüşmeleri üzerinde 360 derecelik görüş açısı elde edin. Telefon santralinizin ürettiği gelen ve giden çağrı bilgilerini ABAKUS 360 ile kolayca analiz edin.
+
+&abakus360kucuk=.
+
+
+
+&abakus444head=Raporlamada ABAKUS 444 Zamanı
+
+&abakus444=Artık şirketinizin 444 ile başlayan numaraları hakkında çok daha detaylı raporlara ulaşabileceksiniz. ABAKUS 444 size yeni bir bakış açısı sağlıyor.
+
+&abakus444kucuk=.

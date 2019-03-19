@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.eclipselabs:net4j.p2:repackaged:4.3.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipselabs/net4j.p2/4.3.0/net4j.p2-4.3.0-repackaged.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipselabs/net4j.p2/4.3.0/net4j.p2-4.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipselabs/net4j.p2/4.3.0/net4j.p2-4.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
