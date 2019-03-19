@@ -107,20 +107,6 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
-        <dependency>
-            <groupId>com.abakus.AnalyticActions</groupId>
-            <artifactId>AnalyticActions</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/web/WEB-INF/lib/AbakusAnalyticActions.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.abakus.BioTekno</groupId>
-            <artifactId>BioTeknoJar</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/web/WEB-INF/lib/bioteknosmsxmlhelper.jar</systemPath>
-        </dependency>
 
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
@@ -167,37 +153,9 @@
             <systemPath>${project.basedir}/web/WEB-INF/lib/cron4j-2.1.1.jar</systemPath>
         </dependency>
         <dependency>
-            <groupId>com.abakus.JimiPro</groupId>
-            <artifactId>JimiProClasses</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/web/WEB-INF/lib/JimiProClasses.jar</systemPath>
-        </dependency>
-        <dependency>
             <groupId>com.googlecode.libphonenumber</groupId>
             <artifactId>libphonenumber</artifactId>
             <version>8.9.15</version>
-        </dependency>
-        <dependency>
-            <groupId>com.abakus.Jintegra</groupId>
-            <artifactId>Jintegra</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/web/WEB-INF/lib/jintegra.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.abakus.Jintegra_Reduced</groupId>
-            <artifactId>Jintegra_Reduced</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/web/WEB-INF/lib/jintegra_reduced_logging.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.abakus.OpenCsv</groupId>
-            <artifactId>OpenCsv</artifactId>
-            <version>1.8</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/web/WEB-INF/lib/opencsv-1.8.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
