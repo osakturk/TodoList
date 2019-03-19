@@ -2,5 +2,5 @@
 <%@page pageEncoding="utf-8" %>
 
 </head>
-HELLO WORLD
+To-do List API Project
 </html>
