@@ -20,10 +20,9 @@ public class UserRepository extends BaseRepository {
     public UserInfo getUserInfo(int userId) {
         UserInfo userInfo = new UserInfo();
         String sql = "SELECT USERNAME AS username," +
-                "USERID,FIRSTNAME," +
-                "isnull(LASTNAME,'') AS lastname," +
+                "ID as userId ,FIRSTNAME firstname," +
                 "LOCALE AS locale " +
-                "FROM Users WHERE USERID=? AND STATUS = 1";
+                "FROM Users WHERE ID=? AND STATUS = 1";
         this.openConnection();
         try {
             preparedStatement = connection.prepareStatement(sql);
@@ -34,7 +33,6 @@ public class UserRepository extends BaseRepository {
                 userInfo.setUserId(resultSet.getLong("userId"));
                 userInfo.setUsername(resultSet.getString("username"));
                 userInfo.setFirstname(resultSet.getString("firstname"));
-                userInfo.setLastname(resultSet.getString("lastname"));
                 userInfo.setCurrentLocale(new Locale(resultSet.getString("LOCALE").equals("") ? defaultLocale : resultSet.getString("LOCALE")));
             }
         } catch (SQLException e) {
@@ -62,7 +60,7 @@ public class UserRepository extends BaseRepository {
             String sql;
             this.openConnection();
 
-            sql = "SELECT USERID FROM users " +
+            sql = "SELECT ID FROM Users " +
                     "WHERE USERNAME= ? AND STATUS=1";
 
             preparedStatement = connection.prepareStatement(sql);
@@ -70,7 +68,7 @@ public class UserRepository extends BaseRepository {
             resultSet = preparedStatement.executeQuery();
 
             if (resultSet.next()) {
-                userID = resultSet.getInt("USERID");
+                userID = resultSet.getInt("ID");
             }
         } catch (SQLException e) {
             e.getSQLState();

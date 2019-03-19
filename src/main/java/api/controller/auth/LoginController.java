@@ -49,7 +49,7 @@ public class LoginController extends BaseController {
                 JSONObject object = new JSONObject();
 
                 object.put("token", token);
-                object.put("name", userInfo.getFirstname() + " " + userInfo.getLastname());
+                object.put("name", userInfo.getFirstname());
                 object.put("locale", userInfo.getCurrentLocale().toString());
                 System.out.println("### Valid Authentication for username : " + username);
                 return Response.ok().entity(object.toString()).header(AUTHORIZATION, "Bearer " + token).build();
