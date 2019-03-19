@@ -5,8 +5,6 @@
 *
 */
 
-import com.sun.jimi.core.Jimi;
-import com.sun.jimi.core.JimiException;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -44,12 +42,6 @@ public class LegendImage extends HttpServlet {
     catch(Exception e){}
 
     g.fillRect(0,0,37,9);
-
-    try {
-    com.sun.jimi.core.raster.JimiRasterImage jrf = Jimi.createRasterImage(image.getSource());
-    Jimi.putImage("image/jpeg",jrf,response.getOutputStream());
-    }
-    catch (JimiException e) {}
   }
 
   //Process the HTTP Post request
