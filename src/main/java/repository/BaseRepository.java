@@ -19,7 +19,7 @@ class BaseRepository {
     BaseRepository(){
         try {
             this.ctx = new InitialContext();
-            String resourceName = "java:comp/env/jdbc/iperaabakus";
+            String resourceName = "java:comp/env/jdbc/todolist";
             this.dataSource = (DataSource) ctx.lookup(resourceName);
         } catch (NamingException e) {
             e.printStackTrace();
